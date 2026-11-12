@@ -18,7 +18,6 @@ Python 3, apenas biblioteca padrão.
 | `dados/` | arquivos `.dat` gerados (1000 registros, bloco de 512 B) + mapas `_mapa.txt` |
 | `resultados/comparacao.csv` | tabela comparativa |
 | `relatorio/relatorio.pdf` | relatório descritivo (decisões de projeto, resultados, análise) |
-| `relatorio/relatorio.docx` | o mesmo relatório em Word (editável; gerado por `preparar_docx.py` + `gerar_docx.js`) |
 
 ## Como executar
 
@@ -33,8 +32,6 @@ python comparar.py                   # tabela comparativa
 cd ..
 python -m unittest discover -s tests -v
 ```
-
-Para regenerar o relatório: `cd relatorio && python gerar_relatorio.py` (usa Edge ou Chrome para criar o PDF).
 
 ## Resultados (1000 registros, bloco de 512 bytes)
 
