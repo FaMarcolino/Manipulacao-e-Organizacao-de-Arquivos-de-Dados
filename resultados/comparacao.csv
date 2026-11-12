@@ -1,0 +1,16 @@
+bloco,modo,blocos,ocupacao_media_pct,blocos_cheios,blocos_parciais,bytes_arquivo,eficiencia_pct
+256,fixo,1000,66.02,0,1000,256000,41.1
+256,variavel-contiguo,526,85.56,3,523,134656,78.14
+256,variavel-espalhado,456,99.83,447,9,116736,90.13
+512,fixo,334,98.83,0,334,171008,61.53
+512,variavel-contiguo,251,89.65,0,251,128512,81.87
+512,variavel-espalhado,227,99.7,221,6,116224,90.53
+1024,fixo,167,98.83,0,167,171008,61.53
+1024,variavel-contiguo,120,93.76,0,120,122880,85.62
+1024,variavel-espalhado,113,99.85,109,4,115712,90.93
+2048,fixo,84,98.24,0,84,172032,61.16
+2048,variavel-contiguo,59,95.35,0,59,120832,87.07
+2048,variavel-espalhado,57,98.83,54,3,116736,90.13
+4096,fixo,42,98.24,0,42,172032,61.16
+4096,variavel-contiguo,29,96.99,0,29,118784,88.58
+4096,variavel-espalhado,29,97.07,28,1,118784,88.58
